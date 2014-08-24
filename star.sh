@@ -129,16 +129,6 @@ while true
 		# archive all server log files
 		archive_log
 		
-		# kill process on PORT
-		# echo -e "\e[0m"
-		# echo -e "\e[97m\e[1m=> Terminating old $SCREENNAME session!  \e[0m"
-		# 
-		# 	bash -c "kill -15 $( lsof -i:${PORT} -t )"
-		# 
-		# echo -e "\e[97m\e[1m=> Waiting 10 seconds!  \e[0m"
-		# echo -e "\e[0m"
-		# sleep 10
-		
 		# countdown for server start
 		for i in 16 14 12 10 8 6 4 2
 		do
